@@ -1,0 +1,8 @@
+    .sign{
+        cursor: pointer;
+        color: black;
+        transition: .4s ease;
+    }
+    .sign:hover{
+        color: gray;
+    }
