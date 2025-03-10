@@ -1,17 +1,66 @@
 const translations = {
-    en: {
-      register: "Register",
-      sign: "Sign in", 
-    },
-    ar: {
-      register: "التسجيل",
-      sign: "تسجيل الدخول",
-    },
-    tr: {
-      register: "Kaydol",
-      sign: "Oturum aç",
-    }
-  };
-  
-  export default translations;
-  
+  en: {
+    register: "Register",
+    sign: "Sign in",
+    wishlist: "Wishlist",
+    cart: "Cart",
+    search: "Search for products ...",
+    category: "All Categories",
+    categories: "categories",
+    home: "Home",
+    superDeals: "Super Deals",
+    featuredBrands: "Featured Brands",
+    pages:"Pages",
+    blog:"Blog",
+    contact:"Contact",
+    navShop:"Shop",
+    navProduct:"Product",
+    navBlogPost:"Blog Post",
+    navRegularPost:"Regular Post",
+    
+
+  },
+  ar: {
+    register: "التسجيل",
+    sign: "تسجيل الدخول",
+    wishlist: "المفضلة",
+    cart: "السلة",
+    search: "البحث عن منتج ...",
+    category: "جميع الفئات",
+    categories: "فئات",
+    home: "الصفحة الرئيسية",
+    superDeals: "عروض سوبر",
+    featuredBrands: "العلامات التجارية المميزة",
+    pages:"الصفحات",
+    blog:"مدونة",
+    contact:"تواصل",
+    navShop:"تسوق",
+    navProduct:"منتج",
+    navBlogPost:"مشاركة المدونة",
+    navRegularPost:"مشاركة عادية",
+    
+
+  },
+  tr: {
+    register: "Kaydol",
+    sign: "Oturum aç",
+    wishlist: "Favori",
+    cart: "Sepet",
+    search: "Ürünleri arayın...",
+    category: "Tüm Kategoriler",
+    categories: "kategoriler",
+    home: "Ana Sayfa",
+    superDeals: "Süper Fırsatlar",
+    featuredBrands: "Öne Çıkan",
+    pages:"Sayfalar",
+    blog:"Blog",
+    contact:"iletişim",
+    navShop:"Mağaza",
+    navProduct:"Ürün",
+    navBlogPost:"Blog Gönderisi",
+    navRegularPost:"Normal Gönderi",
+    
+
+  },
+};
+export default translations;
