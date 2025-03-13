@@ -6,3 +6,117 @@
     .sign:hover{
         color: gray;
     }
+    .homeBanner{
+        background: url('./assets/banner_background.jpg.webp') center/cover no-repeat;
+    }
+    .productBtn{
+        opacity: 0;
+        transition: .5s ease;
+    }
+    .product{
+        cursor: pointer;
+        transition: .4s ease;
+    }
+    .product:hover{
+        transform: scale(1.08);
+    }
+    .product:hover .productBtn{
+        opacity: 1;
+    }
+    .productContent{
+        transition: .4s ease;
+        transform: translateY(40px);
+    }
+    .product:hover .productContent{
+        transform: translateY(0);
+    }
+    .cartBtn i{
+        color: white;
+    }
+    .cartBtn{
+        background-color: rgba(13, 109, 253, 0.408);
+        position: fixed;
+        top: 50%;
+        right: 0px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        padding: 10px 15px ;
+        transition: .4s ease;
+        cursor: pointer;
+        transform: translateX(5px);
+    }
+    .cartBtn:hover{
+        background-color: rgb(13 110 253);
+        transform: translateX(0px);
+    }
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      .overlay.show {
+        opacity: 1;
+        visibility: visible;
+      }
+      .sidebar {
+        position: fixed;
+        top: 0;
+        right: -350px;
+        width: 350px;
+        height: 100%;
+        background: rgba(13, 109, 253, 0.718);
+        color: white;
+        padding: 20px;
+        transition: right 0.3s ease-in-out;
+      }
+      
+      .sidebar.open {
+        right: 0;
+      }
+      .close-btn {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        transition: .4s ease;
+      }
+      .close-btn:hover{
+        rotate: 90deg;
+      }
+      .cartList{
+        list-style: none;
+        width: 100%;
+        display: block;
+      }
+      .cartLi{
+        display: block;
+        font-family: sans-serif;
+        margin: 20px 0;
+      
+      }
+      .productCartBtn{
+        padding: 5px 8px;
+        background-color: aliceblue;
+        border: none;
+        border-radius: 20px;
+        margin-left: 20px;
+        font-family: sans-serif;
+        transition: .3s ease;
+        cursor: pointer;
+      }
+      .productCartBtn:hover{
+        background-color: black;
+        color: white;
+      }
+      .totalPrice{
+        font-family: sans-serif;
+        margin-left: 20px;
+      }
